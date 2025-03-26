@@ -1,0 +1,22 @@
+#include <stdio.h>
+#define gst 0.18
+void bookticket(){
+    char name[50];
+    int tickets;
+    float price,total,gst,grand_total;
+    printf("name:");
+    scanf("%s",name);
+    printf("tickets:");
+    scanf(%d",&tickets);
+    printf("price per ticket:");
+    scanf("%f",&price);
+    total=tickets*price;
+    gst=total*gst;
+    grand_total=total+gst;
+    printf("\n bookticket\nname:%s\ntickets:%d\ntotal:%.2f\ngst:%.2f\ngrand_total:%.2f\ngrand_total
+    name,tickets,total,gst,grand_total);
+}
+int main()
+  bookticket();
+  return 0;
+}
